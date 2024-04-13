@@ -1,4 +1,4 @@
-function Spa(){
+function Spa() {
     return(
       <HashRouter>
       <NavBar/>
@@ -20,4 +20,4 @@ function Spa(){
 ReactDOM.render(
     <Spa/>,
     document.getElementById('root')
-)
+);
